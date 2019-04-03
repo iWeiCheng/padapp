@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">小车童</string>
+    <string name="msg_version_update">有可用的新版本，是否更新？</string>
+    <string name="update_version">更新</string>
+    <string name="title_update_version">软件更新</string>
+    <string name="msg_download_complete">下载完成，点击安装</string>
+    <string name="msg_download_complete_open">下载完成，点击打开</string>
+    <string name="cancel">取消</string>
+
+    <string name="fingerprint_recognition_start">开始指纹识别</string>
+    <string name="fingerprint_recognition_cancel">取消指纹识别</string>
+    <string name="fingerprint_recognition_guide_tip">点击“开始指纹识别”按钮</string>
+    <string name="fingerprint_recognition_tip">请进行指纹识别完成验证</string>
+    <string name="fingerprint_recognition_not_support">此设备不支持指纹解锁</string>
+    <string name="fingerprint_recognition_success">指纹识别成功</string>
+    <string name="fingerprint_recognition_failed">指纹识别失败，请重试！</string>
+    <string name="fingerprint_recognition_error">指纹识别错误，等待30秒后重新开始识别</string>
+    <string name="fingerprint_recognition_authenticating">指纹识别已经开启，长按指纹解锁键</string>
+    <string name="fingerprint_recognition_unlock_screen">测试密码解锁屏幕</string>
+    <string name="fingerprint_recognition_not_enrolled">您还没有录制指纹，请录入！</string>
+    <string name="fingerprint_not_set_unlock_screen_pws">系统没有设置锁屏密码，请设置！</string>
+    <string name="fingerprint_sys_setting_page">进入系统指纹设置页面</string>
+    <string name="sys_pwd_recognition_success">系统密码识别成功</string>
+    <string name="sys_pwd_recognition_failed">系统密码识别失败</string>
+    <string name="no_network">没有网络</string>
+    <string name="network_error">网络错误</string>
+    <string name="reload">重新加载</string>
+    <string name="back">返回</string>
+    <string name="refresh">刷新</string>
+    <string name="close">关闭</string>
+    <string name="wxcircle">朋友圈</string>
+    <string name="wx">微信</string>
+    <string name="no_network_help">没有网络哦，点击重新加载</string>
+    <string name="content">文案位置:\n小字部分用于概括性描述\n此应用</string>
+    <string name="entry_name">Im-plus\n展业应用</string>
+    <string name="entry_name2">- 展 业 应 用 -</string>
+    <string name="entry_name1">Im-plus</string>
+    <string name="company_content">益盛鑫以人为本，客户体验为导向，建立完善的保险金融服务为愿景。</string>
+    <string name="cbb_content">贴心、快捷、全面的\n车主服务平台</string>
+    <string name="gzx_content" > 规避风险首选\n高空作业、工地派遣、\n灵活用工</string>
+</resources>
