@@ -10,11 +10,11 @@ android {
             storePassword '123123'
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 29
     defaultConfig {
         applicationId "com.ysx.xctc"
         minSdkVersion 19
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 105
         versionName "1.0.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -67,7 +67,7 @@ android {
             resValue "string", "type", "b"
             resValue "string", "url", "https://bdoms.implus100.com/#/"
             resValue "string", "version", "th"
-            manifestPlaceholders = [APP_NAME: "桌面应用", app_icon: "@mipmap/icon"]
+            manifestPlaceholders = [APP_NAME: "设备码测试", app_icon: "@mipmap/ic_launcher"]
 
         }
 
