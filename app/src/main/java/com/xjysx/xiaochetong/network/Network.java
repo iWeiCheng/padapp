@@ -40,13 +40,14 @@ public class Network {
     private static Converter.Factory gsonConverterFactory = GsonConverterFactory.create();
     private static CallAdapter.Factory rxJavaCallAdapterFactory = RxJavaCallAdapterFactory.create();
 
-    public static String BASE_URL = "http://www.implus100.com/";
-    public static String SERVICE = "http://www.implus100.com";
+    public static String BASE_URL = "https://v2-api.jsdama.com/";
+    public static String SERVICE = "https://v2-api.jsdama.com";
     public static String WORK_URL = SERVICE + "/agent/interface/pad_interface.jsp";//正式地址
 
     private static GetVersionApi getVersionApi;
     private static DownloadBitmapApi downloadBitmapApi;
     private static GetMainDataApi getMainDataApi;
+    private static IdentifyApi identifyApi;
 
 
     public static SetCookieCache cookieCache = new SetCookieCache();
@@ -123,6 +124,19 @@ public class Network {
         }
         Log.e("method", "downloadBitmapApi");
         return downloadBitmapApi;
+    }
+
+    /**
+     * 下载图片
+     *
+     * @return
+     */
+    public static IdentifyApi identify() {
+        if (identifyApi == null) {
+            identifyApi = retrofit.create(IdentifyApi.class);
+        }
+        Log.e("method", "IdentifyApi");
+        return identifyApi;
     }
 
 }

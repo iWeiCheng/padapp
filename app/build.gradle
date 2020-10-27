@@ -10,11 +10,11 @@ android {
             storePassword '123123'
         }
     }
-    compileSdkVersion 29
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.ysx.xctc"
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 28
         versionCode 105
         versionName "1.0.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
